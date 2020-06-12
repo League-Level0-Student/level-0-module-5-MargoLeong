@@ -24,14 +24,49 @@ bob.penDown();
 bob.setSpeed(5);
 
 		// #5. use a for loop below to do everything ( #6, #7, #8, #9, #12, #13, #14 ) 6 times (use i as the counter)
+for(int i=0; i<6; i++) {
+	
 
-	bob.setPenColor(0,0,0);
-	bob.microMove(50);
-	 bob.turn(60);
-	bob.microMove(50);
-bob.turn(300);
-bob.microMove(60);
+
+bob.setPenColor(0,0,0);
+bob.microMove(50);
+bob.turn(60);
+bob.setPenColor(35,172,176);
+bob.microMove(50);
+bob.turn(60);
+bob.setPenColor(0,0,0);
+bob.microMove(50);
+bob.turn(60);
+bob.setPenColor(35,172,176);
+bob.microMove(50);
+bob.turn(60);
+bob.setPenColor(0,0,0);
+bob.microMove(50);
+bob.turn(60);
+bob.setPenColor(35,172,176);
+bob.microMove(50);
+bob.turn(60);
+bob.setPenColor(0,0,0);
+bob.microTurn(60);	
+bob.microMove(50);
+bob.microTurn(60);	
+bob.microMove(50);
+bob.microTurn(60);	
+bob.microMove(50);
+bob.microTurn(60);	
+bob.microMove(50);
+bob.microTurn(60);	
+bob.microMove(50);
+bob.microTurn(60);	
+bob.microMove(50);
+}
+	
 	}
+
+
+
+	
+	
 
 	private static int bob() {
 		// TODO Auto-generated method stub
